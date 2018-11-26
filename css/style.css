@@ -62,6 +62,10 @@ p {
 	margin-bottom:25px;
 }
 
+.slide-898-layer-2 {
+    margin-bottom: 2rem;
+}
+
 p.hero-text{
 	position:relative;
 	text-align:center;
@@ -239,8 +243,9 @@ iframe{
 }
 
 .logo-nav-new {
-	width: 80px;
-	height: 80px;
+	width: 50px;
+	height: 70px;
+    padding-bottom: 20px;
 }
 
 .bold {
