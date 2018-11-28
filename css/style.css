@@ -892,7 +892,7 @@ iframe {
 
 /* ----- Page Loader ----- */
 #loader {
-    background: #eeece3;
+    background: #ebded5;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -914,7 +914,7 @@ iframe {
 .sk-three-bounce .sk-child {
     width: 20px;
     height: 20px;
-    background-color: #cf564b;
+    background-color: #043c2e;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;

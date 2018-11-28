@@ -4546,7 +4546,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding:18px 0;
 }
 .navbar-default .navbar-brand {
-  margin-top:12px;
+  margin-top: 1px;
   color: #fff;
   font-size: 48px;
   font-family: 'Tangerine', cursive;
