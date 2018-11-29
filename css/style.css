@@ -177,6 +177,13 @@ h2.section-title.no-margin, h3.section-title.no-margin {
     margin-bottom: 0;
 }
 
+#map {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+}
+
+
 span.comic-text {
     font-size: 80px;
     line-height: 60px;

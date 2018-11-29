@@ -51,11 +51,11 @@
 
 <!--begin loader -->
 <!--<div id="loader">-->
-    <!--<div class="sk-three-bounce">-->
-        <!--<div class="sk-child sk-bounce1"></div>-->
-        <!--<div class="sk-child sk-bounce2"></div>-->
-        <!--<div class="sk-child sk-bounce3"></div>-->
-    <!--</div>-->
+<!--<div class="sk-three-bounce">-->
+<!--<div class="sk-child sk-bounce1"></div>-->
+<!--<div class="sk-child sk-bounce2"></div>-->
+<!--<div class="sk-child sk-bounce3"></div>-->
+<!--</div>-->
 <!--</div>-->
 <!--end loader -->
 
@@ -387,6 +387,9 @@
     <!--end container-->
 
 </section>
+
+<div id="map"></div>
+
 <!--end section-white-->
 
 <!--begin image-section -->
@@ -744,7 +747,8 @@
                     <!--begin menu-image-->
                     <div class="menu-image">
 
-                        <img src="https://pp.userapi.com/c824410/v824410008/3d696/zT16clZw7ck.jpg?ava=1" class="width-100" alt="food">
+                        <img src="https://pp.userapi.com/c824410/v824410008/3d696/zT16clZw7ck.jpg?ava=1"
+                             class="width-100" alt="food">
 
                     </div>
                     <!--end menu-image-->
@@ -1171,7 +1175,26 @@
 <!--end footer -->
 
 
+
+
 <!-- Load JS here for greater good =============================-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJbQeixPZBocskdA348ttew7EHnxn7Z4w&callback=initMap">
+</script>
+
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var kyiv = {lat: 50.4501, lng: 30.523400000000038};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 15, center: kyiv});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: kyiv, map: map});
+    }
+</script>
+
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-select.js"></script>
