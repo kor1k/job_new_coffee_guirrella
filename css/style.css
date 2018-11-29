@@ -1276,7 +1276,7 @@ ul.footer-list li a:hover {
 .gallery-hero-section {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg) 50% top no-repeat fixed;
+    background: url(https://purewows3.imgix.net/images/articles/2016_11/sawada_cafe.png?auto=format,compress&cs=strip) 50% top no-repeat fixed;
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1296,7 +1296,7 @@ ul.footer-list li a:hover {
 .reservation-hero-section {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg) 50% top no-repeat fixed;
+    /*background: url() 50% top no-repeat fixed;*/
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1316,7 +1316,7 @@ ul.footer-list li a:hover {
 .hero-gallery-section {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg) 50% top no-repeat fixed;
+    /*background: url() 50% top no-repeat fixed;*/
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1336,7 +1336,7 @@ ul.footer-list li a:hover {
 .contact-hero-section {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg) 50% top no-repeat fixed;
+    /*background: url( ) 50% top no-repeat fixed;*/
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1356,7 +1356,7 @@ ul.footer-list li a:hover {
 .contact2-hero-section {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg) 50% top no-repeat fixed;
+    /*background: url( ) 50% top no-repeat fixed;*/
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1376,7 +1376,7 @@ ul.footer-list li a:hover {
 .image-section {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg);
+    background: url(  https://www.steffeyins.com/wp-content/uploads/2016/12/Coffee-Shop.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1388,7 +1388,7 @@ ul.footer-list li a:hover {
 .image-section-second {
     width: 100%;
     position: relative;
-    background: url(https://cs2.pikabu.ru/post_img2/2014/01/22/9/1390397727_1195135076.jpg);
+    background: url(  https://www.steffeyins.com/wp-content/uploads/2016/12/Coffee-Shop.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
