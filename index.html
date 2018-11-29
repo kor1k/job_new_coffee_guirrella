@@ -49,14 +49,14 @@
 </head>
 <body>
 
-<!--begin loader -->
-<!--<div id="loader">-->
-<!--<div class="sk-three-bounce">-->
-<!--<div class="sk-child sk-bounce1"></div>-->
-<!--<div class="sk-child sk-bounce2"></div>-->
-<!--<div class="sk-child sk-bounce3"></div>-->
-<!--</div>-->
-<!--</div>-->
+begin loader
+<div id="loader">
+    <div class="sk-three-bounce">
+        <div class="sk-child sk-bounce1"></div>
+        <div class="sk-child sk-bounce2"></div>
+        <div class="sk-child sk-bounce3"></div>
+    </div>
+</div>
 <!--end loader -->
 
 <!--begin header -->
@@ -133,7 +133,7 @@
                          data-duration="30000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina=""
                          data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0"
                          data-scaleend="100" data-scalestart="140"
-                         src="images/">
+                         src="https://ozonegroup.com.ua/wp-content/uploads/2016/11/Panorama_06.jpg">
 
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
@@ -1183,14 +1183,12 @@
 </script>
 
 <script>
-    // Initialize and add the map
     function initMap() {
-        // The location of Uluru
         var kyiv = {lat: 50.4501, lng: 30.523400000000038};
-        // The map, centered at Uluru
+        // The map, centered at Kyiv
         var map = new google.maps.Map(
             document.getElementById('map'), {zoom: 15, center: kyiv});
-        // The marker, positioned at Uluru
+        // The marker, positioned at Kyiv
         var marker = new google.maps.Marker({position: kyiv, map: map});
     }
 </script>
@@ -1204,6 +1202,7 @@
 <script src="js/jquery.scrollTo-min.js"></script>
 <script src="js/SmoothScroll.js"></script>
 <script src="js/wow.js"></script>
+<script src="js/google-maps-api.js"></script>
 <script src="js/instafeed.js"></script>
 <script src="js/instagram.js"></script>
 
