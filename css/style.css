@@ -1236,11 +1236,11 @@ ul.footer-list li a:hover {
 .menu-hero-section {
     width: 100%;
     position: relative;
-    background: url(http://investgo24.com/img/project/13232/images/600x450/E0vaVHplgCo.jpg) 50% top no-repeat fixed;
+    background: url(../images/fasad-cofeinya-2.jpg) 50% center no-repeat fixed;
     background-size: cover;
     color: white;
     margin: 0 auto;
-    padding: 210px 0 90px 0;
+    padding: 250px 0 130px 0;
 }
 
 .menu-hero-section .image-overlay {
@@ -1290,7 +1290,7 @@ ul.footer-list li a:hover {
 .gallery-hero-section {
     width: 100%;
     position: relative;
-    background: url(https://purewows3.imgix.net/images/articles/2016_11/sawada_cafe.png?auto=format,compress&cs=strip) 50% top no-repeat fixed;
+    background: url(../images/fasad-cofeinya-s-posterom.jpg) 50% bottom  no-repeat fixed;
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1305,6 +1305,10 @@ ul.footer-list li a:hover {
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.height-265 {
+    height: 265px;
 }
 
 .reservation-hero-section {
