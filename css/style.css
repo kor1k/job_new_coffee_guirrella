@@ -1253,10 +1253,24 @@ ul.footer-list li a:hover {
     left: 0;
 }
 
+.merch {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: black;
+    font-weight: 600;
+}
+
+.merch-title {
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+}
+
 .about-hero-section {
     width: 100%;
     position: relative;
-    background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+    background: url(../images/fasad-cofeninya.jpg) 50% top no-repeat fixed;
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1373,10 +1387,14 @@ ul.footer-list li a:hover {
     left: 0;
 }
 
+.poster-fixed-height {
+    height: 450px;
+}
+
 .image-section {
     width: 100%;
     position: relative;
-    background: url(  https://www.steffeyins.com/wp-content/uploads/2016/12/Coffee-Shop.jpg);
+    background: url(  ../images/vnutri-cofeinya.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1388,7 +1406,7 @@ ul.footer-list li a:hover {
 .image-section-second {
     width: 100%;
     position: relative;
-    background: url(  https://www.steffeyins.com/wp-content/uploads/2016/12/Coffee-Shop.jpg);
+    background: url(../images/vnutri-cofeinya.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
