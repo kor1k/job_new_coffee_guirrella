@@ -259,6 +259,10 @@ iframe {
 
 .logo-nav-small {
     height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 4rem;
+
 }
 
 .bold {
