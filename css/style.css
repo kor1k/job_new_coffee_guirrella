@@ -1915,4 +1915,13 @@ p.contact_success_box {
         display: none;
     }
 
+
+}
+
+@media screen and (max-width: 60rem){
+    .logo-nav-small {
+        left: 170px;
+        text-align: center;
+        align-items: center;
+    }
 }
