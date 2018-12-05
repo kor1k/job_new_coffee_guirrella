@@ -4587,14 +4587,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #243b54;
+  margin-bottom: 0.65rem;
+  align-items: center;
+  text-align: center;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #243b54;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
