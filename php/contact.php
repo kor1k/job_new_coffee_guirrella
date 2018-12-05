@@ -36,7 +36,7 @@ if ($mail_status) { ?>
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
-		//alert('Message failed. Please, send an email to gordon@template-help.com');
+		//alert('Message failed. Please, send an email to guirella@gmail.com');
 		window.location = 'index.html';
 	</script>
 <?php
