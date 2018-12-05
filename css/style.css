@@ -1241,7 +1241,7 @@ ul.footer-list li a:hover {
 .menu-hero-section {
     width: 100%;
     position: relative;
-    background: url(../images/fasad-cofeinya-2.jpg) 50% center no-repeat fixed;
+    background: url(../images/fasad-cofeinya-s-posterom.jpg) 50% center no-repeat fixed;
     background-size: cover;
     color: white;
     margin: 0 auto;
@@ -1369,7 +1369,7 @@ ul.footer-list li a:hover {
 .contact-hero-section .image-overlay {
     /*background: rgba(17, 17, 17, 0.55);*/
     background-image: url("../images/fasad-cofeinya-2.jpg");
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: 100%;
     position: absolute;
     z-index: 10;
@@ -1923,5 +1923,9 @@ p.contact_success_box {
         left: 170px;
         text-align: center;
         align-items: center;
+    }
+
+    .poster-fixed-height {
+        width: 100%;
     }
 }
